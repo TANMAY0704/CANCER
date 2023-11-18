@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid yellow; */
+}
+
+form>div{
+    border-radius: 20px;
+    border: 2px dashed white;
+    height: 40vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+form>div>label{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: #4FFFB0;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: none;
+    transition: 0.4s;
+    transition-property: inherit;
+}
+
+button:hover{
+  
+    cursor: pointer;
+    background-color:#F0E68C ;
+}
+
+.result{
+    color: white;
+    /* border: 2px solid blue; */
+}
+
